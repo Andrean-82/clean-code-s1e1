@@ -44,6 +44,9 @@
   list-style: none;
 }
 .input,
+.create-items__input,
+.execute-items__input,
+.completed-items__input,
 .button{
   outline: none;
 }
@@ -118,7 +121,10 @@
   font-size: 18px;
   width: 226px;
 }
-.input {
+.input,
+.create-items__input,
+.execute-items__input,
+.completed-items__input {
   width: 226px;
 }
 .delete img {
